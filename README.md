@@ -60,7 +60,7 @@ My back end handles requests from the front end, interacts with the database to 
 
 ## Prerequisites
 
-# Backend Depemdency:-
+### Backend Depemdency:-
 
 1. npm i nodemon -g
 2. npm i express
@@ -75,7 +75,7 @@ My back end handles requests from the front end, interacts with the database to 
 11. npm i jsonwebtoken
 12. npm i concurrently
 
-# Frontend Dependency
+### Frontend Dependency
 
 1. npm i axios
 2. npm i react-icons
