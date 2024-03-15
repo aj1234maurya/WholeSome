@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+.loginBackground {
+  height: 100%;
+  /* background-color: #929292; */
+  /* background-color: black; */
+}
+.loginDiv {
+  width: fit-content;
+  background-color: aliceblue;
+  padding: 20px;
+  margin: 5% 0% 5% 0%;
+  border-radius: 20px;
+}
+.loginDiv form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.homeDiv {
+  height: 100%;
+}
+table a {
+  text-decoration: none;
+  color: black;
+}
+.tableContainer {
+  height: fit-content;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tableContainer table {
+  width: 60%;
+}
+
+/* tr,
+th,
+tbody,
+td,
+a {
+  background-color: black !important;
+  color: white !important;
+} */
+
+.addBtn {
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+}
+h6 {
+  margin: 0;
+}
+
+#modalBtn {
+  display: flex;
+  /* border: none; */
+  /* padding: 0; */
+  /* background-color: white; */
+
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .profileNav {
+  margin-right: 30px;
+} */
+
+ul#dropDownWidth.dropdown-menu {
+  --bs-dropdown-min-width: 100px;
+  /* width: auto !important; */
+}
+
+.expandDiv {
+  position: absolute !important;
+}
+
+.dropdown-item {
+  padding: 0;
+  text-align: center;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 0;
+}
+
+.formDiv input {
+  border: 1px solid black;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+#modalBackground {
+  backdrop-filter: blur(10px);
+}
+
+.dark-svg {
+  background-color: #212529;
+  color: white;
+}
+
+.light-svg {
+  background-color: #0d6efd;
+  color: #ffffff;
+}
+
+.light-nav {
+  background-color: #e3f2fd;
+}
+
+.light-login {
+  background-color: #929292;
+}
+
+.dark-login {
+  background-color: black;
+}
+
+/* styles.css */
+.light-theme {
+  background-color: #ffffff !important; /* Light background color */
+  color: #000000 !important; /* Dark text color */
+}
+
+.dark-theme {
+  background-color: #000000 !important; /* Dark background color */
+  color: #ffffff !important; /* Light text color */
+}
+
+.dark-anchor {
+  color: #ffffff !important;
+}
+
+.dark-modal {
+  background-color: #000000 !important; /* Dark background color */
+  color: #ffffff !important; /* Light text color */
+  border: 1px solid;
+}
+
+.dark-button {
+  background-color: white;
+}
+
+.input-dark {
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid white !important;
+}
+
+.input-light {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid black !important;
+}
+.toggleButton {
+  border: none;
+  background-color: #f8f9fa;
+}
+
+.navFlex {
+  gap: 10px;
+}
+
+@media (max-width: 576px) {
+  .tableContainer table {
+    /* width: fit-content; */
+    width: 80%;
+  }
+  /* .tableContainer {
+    width: 120%;
+  } */
+  .tableContainer {
+    width: 100%;
+  }
+  .addBtn {
+    width: 80%;
+  }
+
+  #modalBtn {
+    left: 80%;
+  }
+  /* nav {
+    width: 120%;
+  } */
+  nav {
+    width: 100%;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .tableContainer table {
+    width: 80%;
+  }
+  .addBtn {
+    width: 80%;
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
